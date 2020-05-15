@@ -13,7 +13,7 @@ const STORE = {
   // >>> example <<<
   // === Js/Ts file ===
   // import STORE_CONST from '../store-const.js'
-  // const logged = await store.getters[STORE_CONST.getterNames.userDetialLoginStatus]
+  // const userLogged = await store.getters[STORE_CONST.getterNames.userDetialLoginStatus]
   
   // === Vue file ===
   // 1.) Import file
@@ -27,4 +27,4 @@ const STORE = {
   //   }
   // }
   // 3.) Get user
-  // const userDetail = this.$store.dispatch(this.actions.getUserDetail)
+  // const userLogged = this.$store.dispatch(this.actions.userDetialLoginStatus)
